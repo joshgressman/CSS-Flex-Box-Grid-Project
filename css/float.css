@@ -1,0 +1,64 @@
+/* Set constrants on all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1280px;
+    /* center in page */
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logo {
+    background-color: #ef9a9a;
+    width: 34%;
+    height: 110px;
+    margin-right: 1%;
+    float: left;
+}
+
+.top-menu {
+    background-color: #f48fb1;
+    width: 65%;
+    height: 110px;
+    float: left;
+}
+
+.content-block {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left-menu {
+    background-color: #ce93d8;
+    width: 34%;
+    min-height: 280px;
+    float: left;
+    margin-right: 1%;
+
+}
+
+.content-main {
+    width: 65%;
+    float: left;
+    background-color: #b39ddb;
+}
+
+.content-left {
+    width: 60%;
+    float: left;
+    background-color: #9fa8da;
+}
+
+.content-right {
+    width: 40%;
+    float: left;
+    background-color: #90caf9;
+}
